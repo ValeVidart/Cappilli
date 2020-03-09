@@ -1,0 +1,250 @@
+body {
+  font-family: 'Montserrat';
+  text-align: center;
+}
+
+.imgLogo {
+  padding: 7% 2% 7%;
+  line-height: 20px;
+  margin: auto;
+  width: 50%;
+}
+
+
+/* sections and containers */
+.container-fluid {
+  padding: 7% 15%;
+}
+
+.colored-section {
+  background-color: #F4FDFE;
+  text-align: left;
+}
+
+.white-section {
+  background-color: white;
+  text-align: left;
+}
+
+/* Headings */
+
+.big-heading {
+  font-family: 'Yeseva One', cursive;
+  font-size: 2.5rem;
+  line-height: 1.2;
+  text-align: center;
+  color: #f19b06;
+  padding-bottom: 3%;
+}
+
+.md-heading{
+  font-size: 1.1rem;
+  line-height: 1.5;
+  color: #707070;
+}
+
+/* navbar */
+
+.myMenu{
+  width:80%;
+}
+.navbar-light .navbar-toggler-icon{
+  padding-top: 10%;
+  background-image:none;
+}
+
+
+.navbar-light .navbar-nav .nav-link {
+
+  color: #f19b06;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+  color: #3ca3ab;
+}
+
+.nav-item {
+  font-weight: 900;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.nav-link .nav-item{
+  margin-left: 0;
+  margin-right: 0;
+  line-height: 1;
+}
+
+.bg-light{
+  background-color:white!important;
+  background: rgba(255, 255, 255, 0.88);
+  box-shadow: 0px 3px 21px rgba(0, 0, 0, 0.16);
+
+}
+
+
+/* submenu */
+.mySubMenu .nav-link{
+  font-size:1.2rem;
+  line-height: 0.5rem;
+  font-weight: 400;
+}
+
+nav-label:focus{
+  background-color: #3ca3ab;
+}
+
+.mySub{
+  text-align:center;
+}
+.dropdown-menu{
+  min-width: 50%;
+}
+
+/* slider articoli principali */
+
+#slider{
+  text-align: center;
+}
+.slider-text{
+  font-size: 2rem;
+  line-height: 1.5;
+  font-family: 'Merriweather';
+  font-weight: 400;
+  color: #707070;
+}
+
+#slider .container-fluid{
+  padding-top: 3%;
+}
+
+.imgSlide{
+  width: 70%;
+  height: auto;
+}
+
+h6{
+  font-family: 'Merriweather';
+  font-size: 1rem;
+  font-weight: 300;
+  color: #3ca3ab;
+}
+em{
+  font-family: 'Merriweather';
+  font-weight: 300;
+  color: #707070;
+
+}
+
+p{
+  color: #707070;
+}
+.carousel-control-prev-icon .carousel-control-next-icon{
+  color:black;
+}
+
+
+/* Chi sono */
+#about {
+  font-size: 1rem;
+  margin: auto;
+  background-color: white;
+}
+
+.chiSono_image {
+  width: 100%;
+  height: auto;
+  border-radius: 2vw;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.btn{
+  text-transform: uppercase;
+  width: 291px;
+  height: 68px;
+  border-radius: 34px;
+  background: #fff;
+  border: 2px solid #3ca3ab;
+  margin: 20px auto;
+  color: #3ca3ab;
+}
+
+.btn:hover {
+  color: #f19b06;
+  text-decoration: none;
+}
+
+
+/* TERAPIA */
+.tr_image{
+  width: 90%;
+  height: 100%;
+  border-radius: 0.5vw;
+  object-fit: cover;
+}
+
+/* ARTICOLI */
+
+
+
+.article-column{
+  padding: 2% 2%;
+}
+
+.article-text{
+  font-size: 1.5rem;
+  line-height: 1.2;
+  font-weight: 700;
+  color: #707070;
+  text-transform: uppercase;
+}
+
+
+.card-header{
+  background-color: white;
+}
+.card-title{
+  color: #f19b06;
+  font-weight: 700;
+  font-family: Ubuntu;
+  text-transform: uppercase;
+  text-align: center;
+}
+.card{
+  border-radius: 2vw;
+  width: auto;
+}
+
+.card-header:first-child {
+    border-radius: 2rem;
+    border-top-left-radius: 2rem;
+    border-top-right-radius: 2rem;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+
+/* EVENTI E NEWS */
+#eventNews{
+  padding: 3% 2%;
+}
+
+/* FOOTER */
+.colored-section #footer{
+  background-color: #FBE1B3;
+  text-align: center;
+}
+
+
+.footer-link{
+  color: black;
+}
+
+.footer-link:hover{
+  color: #707070;
+}
+
+.my-footer{
+  padding-right: 3%;
+}
