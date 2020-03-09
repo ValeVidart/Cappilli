@@ -10,7 +10,6 @@ body {
   width: 50%;
 }
 
-
 /* sections and containers */
 .container-fluid {
   padding: 7% 15%;
@@ -27,35 +26,40 @@ body {
 }
 
 /* Headings */
-
 .big-heading {
-  font-family: 'Yeseva One', cursive;
-  font-size: 2.5rem;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.3rem;
   line-height: 1.2;
+  font-weight: 900;
+  text-transform: uppercase;
   text-align: center;
   color: #f19b06;
-  padding-bottom: 3%;
+  padding: 3%;
 }
 
-.md-heading{
+.normal-heading{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.md-heading {
   font-size: 1.1rem;
   line-height: 1.5;
   color: #707070;
 }
 
 /* navbar */
-
-.myMenu{
-  width:80%;
+.myMenu {
+  width: 80%;
 }
-.navbar-light .navbar-toggler-icon{
+
+.navbar-light .navbar-toggler-icon {
   padding-top: 10%;
-  background-image:none;
+  background-image: none;
 }
-
 
 .navbar-light .navbar-nav .nav-link {
-
   color: #f19b06;
 }
 
@@ -69,78 +73,110 @@ body {
   padding-right: 1rem;
 }
 
-.nav-link .nav-item{
+.nav-link .nav-item {
   margin-left: 0;
   margin-right: 0;
   line-height: 1;
 }
 
-.bg-light{
-  background-color:white!important;
+.bg-light {
+  background-color: white !important;
   background: rgba(255, 255, 255, 0.88);
   box-shadow: 0px 3px 21px rgba(0, 0, 0, 0.16);
-
 }
-
 
 /* submenu */
-.mySubMenu .nav-link{
-  font-size:1.2rem;
-  line-height: 0.5rem;
-  font-weight: 400;
+.mySubMenu .nav-link {
+  font-size: .95rem;
+  line-height: 1.2rem;
+  font-weight: 700;
+  text-transform: uppercase;
 }
 
-nav-label:focus{
+nav-label:focus {
   background-color: #3ca3ab;
 }
 
-.mySub{
-  text-align:center;
+.mySub {
+  text-align: center;
 }
-.dropdown-menu{
-  min-width: 50%;
+
+.dropdown-menu {
+  min-width: 100%;
 }
 
 /* slider articoli principali */
-
-#slider{
+#slider {
   text-align: center;
 }
-.slider-text{
+
+.imgSlide {
+  width: 90%;
+  height: auto;
+  margin:auto;
+}
+
+.slider-text {
+  margin-top: 10%;
   font-size: 2rem;
   line-height: 1.5;
   font-family: 'Merriweather';
   font-weight: 400;
   color: #707070;
+  position:relative;
 }
 
-#slider .container-fluid{
+/* slider di prova */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  height: 100px;
+  width: 100px;
+  background-image: none;
+}
+
+.carousel-control-next-icon:after
+{
+  content: '>';
+  font-size: 2rem;
+  font-weight: 700;
+  color: #f19b06;
+}
+
+.carousel-control-prev-icon:after {
+  content: '<';
+  font-size: 2rem;
+  font-weight: 700;
+  color: #f19b06;
+}
+/* fine slider di prova */
+
+
+#slider .container-fluid {
   padding-top: 3%;
 }
 
-.imgSlide{
-  width: 70%;
-  height: auto;
-}
 
-h6{
+
+
+h6 {
   font-family: 'Merriweather';
   font-size: 1rem;
   font-weight: 300;
   color: #3ca3ab;
 }
-em{
+
+em {
   font-family: 'Merriweather';
   font-weight: 300;
   color: #707070;
-
 }
 
-p{
+.text-general {
   color: #707070;
 }
-.carousel-control-prev-icon .carousel-control-next-icon{
-  color:black;
+
+.carousel-control-prev-icon .carousel-control-next-icon {
+  color: black;
 }
 
 
@@ -159,7 +195,7 @@ p{
   text-align: center;
 }
 
-.btn{
+.btn {
   text-transform: uppercase;
   width: 291px;
   height: 68px;
@@ -175,9 +211,8 @@ p{
   text-decoration: none;
 }
 
-
 /* TERAPIA */
-.tr_image{
+.tr_image {
   width: 90%;
   height: 100%;
   border-radius: 0.5vw;
@@ -185,14 +220,11 @@ p{
 }
 
 /* ARTICOLI */
-
-
-
-.article-column{
+.article-column {
   padding: 2% 2%;
 }
 
-.article-text{
+.article-text {
   font-size: 1.5rem;
   line-height: 1.2;
   font-weight: 700;
@@ -200,51 +232,50 @@ p{
   text-transform: uppercase;
 }
 
-
-.card-header{
+.card-header {
   background-color: white;
 }
-.card-title{
+
+.card-title {
   color: #f19b06;
   font-weight: 700;
   font-family: Ubuntu;
   text-transform: uppercase;
   text-align: center;
 }
-.card{
+
+.card {
   border-radius: 2vw;
   width: auto;
 }
 
 .card-header:first-child {
-    border-radius: 2rem;
-    border-top-left-radius: 2rem;
-    border-top-right-radius: 2rem;
-    border-bottom-right-radius: 0;
-    border-bottom-left-radius: 0;
+  border-radius: 2rem;
+  border-top-left-radius: 2rem;
+  border-top-right-radius: 2rem;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
 }
 
-
 /* EVENTI E NEWS */
-#eventNews{
+#eventNews {
   padding: 3% 2%;
 }
 
 /* FOOTER */
-.colored-section #footer{
+.colored-section #footer {
   background-color: #FBE1B3;
   text-align: center;
 }
 
-
-.footer-link{
+.footer-link {
   color: black;
 }
 
-.footer-link:hover{
+.footer-link:hover {
   color: #707070;
 }
 
-.my-footer{
+.my-footer {
   padding-right: 3%;
 }

@@ -1,14 +1,48 @@
-/* di cosa mi occupo */
+/* section and heading */
 .shrink-section{
-  padding: 0 5%;
-  background-color: #EFEFEF;
-  border-radius: 1vw;
-}
-.text-ambiti{
   padding: 3%;
+  background-color: #EFEFEF;
+  border-radius: 2vw;
 }
+
+.container-fluid .white-section{
+  padding: 0 3%;
+}
+
+/* di cosa mi occupo */
+.text-ambiti{
+  padding: 6%;
+}
+
 ul{
   list-style-type: none;
-  padding: 1vw 0;
+}
 
+.myBlock{
+  background-color: #3ca3ab;
+  height:15%;
+  border-radius: 5px;
+  padding:6% 0;
+  color:white;
+  font-size: 1rem;
+  font-weight: 700;
+  margin-top:10px;
+  margin-bottom: 10px;
+  align-items: center;
+}
+
+
+
+/* first section */
+.cases{
+  background-color: #EFEFEF;
+  color: #3ca3ab;
+  padding: 3%;
+  margin-top: 5%;
+  margin-bottom:5%;
+  border-radius:2vw;
+  width: 90%;
+  height: 90%;
+  margin: auto;
+  text-align: center;
 }

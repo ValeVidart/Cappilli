@@ -20,8 +20,8 @@
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css">
 
   <!--css files -->
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
   <link rel="stylesheet" href="css/mobile.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
   <link rel="stylesheet" href="css/cappilli.css">
 
   <!--favicon files -->
@@ -37,7 +37,7 @@
 <body>
 
   <!-- logo -->
-  <a class="navbar-brand" href="#">
+  <a class="navbar-brand" href="index.html">
     <img class="imgLogo" src="img/lauraCappilliLogo.svg" alt="">
   </a>
 
@@ -73,11 +73,10 @@
             <span class="caret"></span>
           </a>
           <ul class="dropdown-menu mySub">
+            <li class="nav-item mySubMenu"><a class="nav-link" href="#">Salute e Benessere</a></li>
+            <li class="nav-item mySubMenu"><a class="nav-link" href="decalogo.html">Decalogo delo psicologo</a></li>
             <li class="nav-item mySubMenu"><a class="nav-link" href="#">Siti di Psicologia</a></li>
             <li class="nav-item mySubMenu"><a class="nav-link" href="#">Leggi e Deontologia</a></li>
-            <li class="nav-item mySubMenu"><a class="nav-link" href="#">Decalogo</a></li>
-            <li class="nav-item mySubMenu"><a class="nav-link" href="#">Salute e Benessere</a></li>
-            <li class="nav-item mySubMenu"><a class="nav-link" href="#">Service C5</a></li>
           </ul>
         </li>
         <li class="nav-item">
@@ -94,7 +93,39 @@
 
   <!-- Slider Articoli -->
   <section class="white-section" id="slider">
-
+    <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+        <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item active container-fluid">
+          <img src="img/cit_uno.jpg" href="#" class="imgSlide d-block" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+<br><br>
+          </div>
+        </div>
+        <div class="carousel-item container-fluid">
+          <img src="img/cit_due.png" href="#" class="imgSlide d-block" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+          </div>
+        </div>
+        <div class="carousel-item container-fluid">
+          <img src="img/cit_tre.jpg" href="#" class="imgSlide d-block" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+          </div>
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+        <span class="carousel-control-next-icon"  aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
   </section>
 
   <!-- CHI SONO SECTION -->
@@ -111,12 +142,12 @@
           <br>
           <h3 class="md-heading">Sono una<strong> Psicologa Psicoterapeuta</strong> ad orientamento psicodinamico e psicoanalitico, <strong>con esperienza trentennale</strong>.</h3>
           <br>
-          <p>Libera professionista e fomatrice, svolgo la mia attività come psicologa e psicoterapeuta a Lecce.</p>
+          <p class="text-general">Libera professionista e fomatrice, svolgo la mia attività come psicologa e psicoterapeuta a Lecce.</p>
         </div>
         <div class="col-sm-12">
           <br>
-          <p>Da oltre 30 anni metto le mie competenze al servizio delle persone che seguo, sostenendole nel loro percorso di vita e di crescita personale come psicologa, psicoterapeuta, sessuologa e coach.</p>
-          <p>Ho effettuato master e corsi di perfezionamento in Psicoanalisi e Clinica della Sessualità,
+          <p class="text-general">Da oltre 30 anni metto le mie competenze al servizio delle persone che seguo, sostenendole nel loro percorso di vita e di crescita personale come psicologa, psicoterapeuta, sessuologa e coach.</p>
+          <p class="text-general">Ho effettuato master e corsi di perfezionamento in Psicoanalisi e Clinica della Sessualità,
             Sessuologia Clinica, Psicoanalisi della Relazione di coppia, Disturbi Alimentari, eventi post-traumatici da stress, disagio minorile e adulto.</p>
           <em>Fare analisi significa ridare al paziente gli affetti che sono andati perduti. Il desiderio di transfert è il motore della terapia. L'analisi finirà quando il paziente saprà utilizzarlo come il motore della sua vita.
 
@@ -143,7 +174,7 @@
         </div>
         <div class="col-lg-6">
           <br>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem magnam id omnis odit non asperiores in, modi cum esse rem et a aspernatur pariatur animi aliquam optio quo nam est!</p>
+          <p class="text-general">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem magnam id omnis odit non asperiores in, modi cum esse rem et a aspernatur pariatur animi aliquam optio quo nam est!</p>
 
           <button type="button" class="btn btn-outline-dark btn-lg btn-block">PER SAPERNE DI PIù</button>
         </div>
@@ -326,7 +357,7 @@
     <br>
     <h5>Riceve su appuntamento a Lecce in via C. De Giorgi, 44 (zona Salesiani)</h5>
     <br>
-    <p>cell. 320/7610257 - mail: kapla8@libero.it</p>
+    <p class="text-general">cell. 320/7610257 - mail: kapla8@libero.it</p>
     <br>
   </footer>
 
