@@ -11,6 +11,11 @@
 .imgSlide{
 max-width:50%;
 }
+/* sections */
+.container-fluid {
+  padding: 7% 15%;
+}
+/* Headings */
 .cursive-style{
   font-weight:700;
 }

@@ -1,5 +1,5 @@
 body {
-  font-family: 'Montserrat';
+  font-family: 'Open-sans',sans-serif;
   text-align: center;
 }
 
@@ -13,7 +13,7 @@ body {
 
 /* sections and containers */
 .container-fluid {
-  padding: 4% 15%;
+  padding: 4% 5%;
 }
 
 .colored-section {
@@ -26,7 +26,7 @@ body {
   text-align: left;
 }
 
-/* Headings */
+/* Headings  and text*/
 .big-heading {
   font-family: 'Montserrat', sans-serif;
   font-size: 2.7rem;
@@ -72,6 +72,21 @@ body {
   font-weight: 500;
   font-size: 1.1rem;
   line-height: 1.5;
+}
+
+.colored-section .cursive-style{
+  color: #707070;
+}
+
+em {
+  font-family: 'Merriweather';
+  font-weight: 300;
+  color: #707070;
+}
+
+.text-general {
+  color: #707070;
+  font-size: 1.2rem;
 }
 
 /* navbar */
@@ -181,15 +196,7 @@ nav-label:focus {
 }
 
 
-em {
-  font-family: 'Merriweather';
-  font-weight: 300;
-  color: #707070;
-}
 
-.text-general {
-  color: #707070;
-}
 
 .carousel-control-prev-icon .carousel-control-next-icon {
   color: black;
@@ -229,8 +236,8 @@ em {
 
 /* TERAPIA */
 .tr_image {
-  width: auto;
-  height: 70%;
+  width: 90%;
+  height: auto;
   border-radius: 0.5vw;
   object-fit: cover;
 }
