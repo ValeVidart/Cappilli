@@ -264,8 +264,8 @@ em {
 }
 
 /* FOOTER */
-.colored-section #footer {
-  background-color: #FBE1B3;
+#footer{
+  padding: 3%;
   text-align: center;
 }
 
@@ -278,5 +278,6 @@ em {
 }
 
 .my-footer {
-  padding-right: 3%;
+  padding: 3% 6% 3%;
+
 }

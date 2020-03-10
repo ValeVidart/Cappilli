@@ -9,7 +9,7 @@
 
 @media (min-width: 768px){
 .imgSlide{
-  width: 50%;
+max-width:50%;
 }
 
 }
