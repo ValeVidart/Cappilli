@@ -14,7 +14,7 @@ body {
 hr {
   border: dotted #a1e6e3 8px;
   border-bottom: none;
-  width: 7%;
+  width: 9%;
   margin: 50px auto;
 }
 /* sections and containers */
@@ -44,9 +44,22 @@ hr {
   padding: 3%;
 }
 
-.white-section .big-heading{
-  color: #3ca3ab;
-  line-height:0.7;
+.md-heading {
+  font-size: 1.1rem;
+  font-weight: 700;
+  line-height: 1.5;
+  color: #f19b06;
+  text-align: center;
+}
+
+
+
+.light-heading{
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 1.2;
+  color: #f19b06;
+  text-align: center;
 }
 
 .new-md-heading{
@@ -59,33 +72,27 @@ hr {
   padding-bottom: 3%;
 }
 
-.white-section .new-md-heading{
-  color: #3ca3ab;
-}
-
-/* .normal-heading{
-  font-family: 'Montserrat', sans-serif;
-  font-size: 1.5rem;
-  font-weight: 700;
-} */
-
-.md-heading {
-  font-size: 1.1rem;
-  line-height: 1.5;
-  color: #707070;
-}
-
 .cursive-style {
   font-family: 'Merriweather';
-  color: #3ca3ab;
+  color: #0c7b93;
   text-align: center;
   font-weight: 500;
   font-size: 1.25rem;
   line-height: 1.8;
 }
 
+
+.white-section .new-md-heading{
+  color: #0c7b93;
+}
+
 .colored-section .cursive-style{
   color: #707070;
+}
+
+.white-section .big-heading{
+  color: #0c7b93;
+  line-height: 1.2;
 }
 
 em {
@@ -95,11 +102,13 @@ em {
 }
 
 .text-general {
+  font-family: 'Adamina', serif;
   color: #707070;
-  font-size: 1.1rem;
+  font-size: 1.3rem;
+  line-height: 1.9;
 }
 .colored-section strong{
-  color: #3ca3ab;
+  color: #0c7b93;
 }
 
 /* navbar */
@@ -117,7 +126,7 @@ em {
 }
 
 .navbar-light .navbar-nav .nav-link:hover {
-  color: #3ca3ab;
+  color: #0c7b93;
 }
 
 .nav-item {
@@ -147,7 +156,10 @@ em {
 }
 
 nav-label:focus {
-  background-color: #3ca3ab;
+  background-color: #0c7b93;
+}
+.nav-label{
+  padding-left: 12px;
 }
 
 .mySub {
@@ -226,15 +238,16 @@ nav-label:focus {
   text-align: center;
 }
 
+
 .btn {
   text-transform: uppercase;
-  width: 291px;
-  height: 68px;
+  width: 20rem;;
+  height: 4rem;
   border-radius: 34px;
-  background: #fff;
-  border: 2px solid #3ca3ab;
+  background: #f67575;
+  border: 2px solid #f67575;
   margin: 20px auto;
-  color: #3ca3ab;
+  color: #fff;
 }
 
 .btn:hover {
@@ -243,11 +256,12 @@ nav-label:focus {
 }
 
 /* TERAPIA */
-.tr_image {
+.myImage {
   width: 90%;
   height: auto;
-  border-radius: 0.5vw;
+  border-radius: 5vw;
   object-fit: cover;
+  padding:3%;
 }
 
 /* ARTICOLI */
@@ -269,14 +283,18 @@ nav-label:focus {
 
 .card-title {
   color: #f19b06;
-  font-weight: 700;
-  font-family: Ubuntu;
+  font-weight: 900;
   text-transform: uppercase;
   text-align: center;
+  font-size: 1.3rem;
+  line-height: 1.5;
 }
-
+.card-img, .card-img-top{
+  border-top-left-radius: 3vw;
+  border-top-right-radius: 3vw;
+}
 .card {
-  border-radius: 2vw;
+  border-radius: 3vw;
   width: auto;
 }
 
@@ -286,6 +304,9 @@ nav-label:focus {
   border-top-right-radius: 2rem;
   border-bottom-right-radius: 0;
   border-bottom-left-radius: 0;
+}
+.card-link{
+  color: #f67575;
 }
 
 /* EVENTI E NEWS */
