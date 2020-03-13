@@ -12,14 +12,14 @@ body {
 }
 
 hr {
-  border: dotted #a1e6e3 8px;
+  border: dotted #f19b06 8px;
   border-bottom: none;
   width: 9%;
   margin: 50px auto;
 }
 /* sections and containers */
 .container-fluid {
-  padding: 4% 5%;
+  padding: 4% 9%;
 }
 
 .colored-section {
@@ -35,7 +35,7 @@ hr {
 /* Headings  and text*/
 .big-heading {
   font-family: 'Montserrat', sans-serif;
-  font-size: 2.7rem;
+  font-size: 1.5rem;
   line-height: 2.8rem;
   font-weight: 900;
   text-transform: uppercase;
@@ -55,10 +55,10 @@ hr {
 
 
 .light-heading{
+  font-family: 'Merriweather Sans', sans-serif;
   font-size: 1rem;
-  font-weight: 700;
   line-height: 1.2;
-  color: #f19b06;
+  color: #707070;
   text-align: center;
 }
 
@@ -87,7 +87,7 @@ hr {
 }
 
 .colored-section .cursive-style{
-  color: #707070;
+  color: #f19b06;
 }
 
 .white-section .big-heading{
@@ -102,11 +102,15 @@ em {
 }
 
 .text-general {
-  font-family: 'Adamina', serif;
-  color: #707070;
-  font-size: 1.3rem;
-  line-height: 1.9;
+  color: #293133;
+  font-size: 1.1rem;
 }
+
+.text-general strong{
+  letter-spacing: 0.06;
+  font-weight: 400;
+}
+
 .colored-section strong{
   color: #0c7b93;
 }
@@ -241,18 +245,22 @@ nav-label:focus {
 
 .btn {
   text-transform: uppercase;
-  width: 20rem;;
-  height: 4rem;
+  font-size: 1rem;
+  width: 15rem;;
+  height: 3.5rem;
   border-radius: 34px;
-  background: #f67575;
-  border: 2px solid #f67575;
+  background: #fff;
+  border: 2px solid #0c7b93;
   margin: 20px auto;
-  color: #fff;
+  color: #0c7b93;
 }
 
 .btn:hover {
   color: #f19b06;
   text-decoration: none;
+  background-color: #fff;
+  border: 2px solid #f19b06;
+
 }
 
 /* TERAPIA */
@@ -261,33 +269,30 @@ nav-label:focus {
   height: auto;
   border-radius: 5vw;
   object-fit: cover;
-  padding:3%;
+  margin: 2%;
 }
 
 /* ARTICOLI */
 .article-column {
-  padding: 2% 2%;
-}
-
-.article-text {
-  font-size: 1.5rem;
-  line-height: 1.2;
-  font-weight: 700;
-  color: #707070;
-  text-transform: uppercase;
+  padding: 3% 2%;
 }
 
 .card-header {
   background-color: white;
 }
+.card-text{
+  font-family: 'Merriweather Sans', sans-serif;
+  color: #707070;
+}
 
 .card-title {
   color: #f19b06;
   font-weight: 900;
-  text-transform: uppercase;
+  font-family: 'Merriweather', cursive;
   text-align: center;
-  font-size: 1.3rem;
-  line-height: 1.5;
+  color: #0c7b93;
+  font-size: 1.1rem;
+  line-height: 1.3;
 }
 .card-img, .card-img-top{
   border-top-left-radius: 3vw;
@@ -319,14 +324,20 @@ nav-label:focus {
   text-align:center;
 }
 
+#footer ul{
+  padding-left: 0;
+}
 
+#footer strong{
+  color: #f19b06;
+}
 
 .footer-link {
   color: black;
 }
 
 .footer-link:hover {
-  color: #707070;
+  color: #0c7b93;
 }
 
 .my-footer {
