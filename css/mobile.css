@@ -9,9 +9,38 @@
     padding: 3% 2%;
   }
 
-  .text-general {
-    font-size: 30px;
+/* Headings */
+  .cursive-style {
+    line-height: 1.4;
   }
+
+  .text-general {
+    line-height: 1.8;
+ }
+
+  #p_analisi .big-heading{
+    font-size: 2rem;
+    text-align: center;
+    margin: 0;
+  }
+
+  #p_terapeuta .big-heading{
+    font-size: 1.8rem;
+    text-align: center;
+    margin: 0;
+  }
+
+  #approach .big-heading{
+    font-size: 1.9rem;
+    text-align: center;
+    line-height: 1;
+    margin: 0;
+  }
+
+  #approach .new-md-heading{
+    padding-top: 10px;
+  }
+
 }
 
 
@@ -38,8 +67,10 @@
 
   #articles .myImage{
     width: 50%;
+    display: block;
+    margin: auto;
  }
- 
+
 }
 
 
@@ -53,12 +84,6 @@
   }
 
   /* Headings */
-  .cursive-style {
-    font-weight: 700;
-  }
-  .big-heading{
-    font-size: 2rem;
-  }
 
   #art-principali .cursive-style{
     font-size: 1.8rem;

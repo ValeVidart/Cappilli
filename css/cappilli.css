@@ -35,8 +35,8 @@ hr {
 /* Headings  and text*/
 .big-heading {
   font-family: 'Montserrat', sans-serif;
-  font-size: 1.5rem;
-  line-height: 2.8rem;
+  font-size: 3rem;
+  line-height: 2.5rem;
   font-weight: 900;
   text-transform: uppercase;
   text-align: center;
@@ -108,7 +108,7 @@ em {
 
 .text-general strong{
   letter-spacing: 0.06;
-  font-weight: 400;
+  font-weight: 700;
 }
 
 .colored-section strong{
@@ -270,6 +270,7 @@ nav-label:focus {
   border-radius: 5vw;
   object-fit: cover;
   margin: 2%;
+  display: block;
 }
 
 /* ARTICOLI */
