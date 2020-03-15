@@ -27,6 +27,8 @@
   <link rel="stylesheet" href="css/cappilli.css">
   <link rel="stylesheet" href="css/ambiti.css">
   <link rel="stylesheet" href="css/mobile.css">
+  <link href="css/gallerymio.css" rel="stylesheet" type="text/css" />
+  <link href="css/lightboxmio.css" rel="stylesheet" type="text/css" />
 
   <!--favicon files -->
   <link href="img/favicon.png" rel="shortcut icon">
@@ -35,6 +37,10 @@
   <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  <script type="text/javascript" src="js/prototype.js"></script>
+  <script type="text/javascript" src="js/scriptaculous.js"></script>
+  <script type="text/javascript" src="js/lightbox.js"></script>
+
 
 </head>
 
@@ -69,7 +75,7 @@
           <a class="nav-link" href="ambiti.html">AMBITI DI INTERVENTO</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="risorse.html">ARTICOLI</a>
+          <a class="nav-link" href="articoli.html">ARTICOLI</a>
         </li>
         <li class="dropdown-submenu nav-item">
           <a href="#" class="nav-link dropdown-toggle m-auto" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
@@ -77,17 +83,17 @@
             <span class="caret"></span>
           </a>
           <ul class="dropdown-menu mySub">
-            <li class="nav-item mySubMenu"><a class="nav-link" href="#">Siti di Psicologia</a></li>
-            <li class="nav-item mySubMenu"><a class="nav-link" href="#">Leggi e Deontologia</a></li>
-            <li class="nav-item mySubMenu"><a class="nav-link" href="#">Decalogo</a></li>
-            <li class="nav-item mySubMenu"><a class="nav-link" href="#">Salute e Benessere</a></li>
+            <li class="nav-item mySubMenu"><a class="nav-link" href="benessere.html">Salute e Benessere</a></li>
+            <li class="nav-item mySubMenu"><a class="nav-link" href="decalogo.html">Decalogo dello psicologo</a></li>
+            <li class="nav-item mySubMenu"><a class="nav-link" href="siti_psy.html">Siti di Psicologia</a></li>
+            <li class="nav-item mySubMenu"><a class="nav-link" href="deontologia.html.">Leggi e Deontologia</a></li>
           </ul>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="contatti.html">NEWS</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="contatti.html">CONTATTI</a>
+          <a class="nav-link" href="#footer">CONTATTI</a>
         </li>
       </ul>
 
@@ -97,35 +103,70 @@
 
 
   <!-- di cosa mi occupo -->
-    <h2 class="big-heading">DI COSA MI OCCUPO</h2>
 
-    <section class="white-section" >
+  <section class="white-section" id="occupo">
+    <div class="container-fluid">
+
+      <h2 class="big-heading">DI COSA MI OCCUPO</h2>
+
 
       <div class="row">
 
-        <div class="col-lg-3 col-md-6">
-
-          <div class="cases" id="occupo">
-            <h5 class="normal-heading">Qualcosa:</h5>
-              <p class="myBlock">Psicologia dell'adulto, dell'adolescente, dell'anziano</p>
-              <p class="myBlock">Psicoterapia di coppia</p>
-              <p class="myBlock">Crescita personale</p>
-              <p class="myBlock">Disagio adolescenziale</p>
-              <p class="myBlock">Formazione</p>
-              <p class="myBlock">Consulenze</p>
+        <div class="col-lg-4 col-md-6">
+          <div class="myColumn">
+            <h3 class="cursive-style" style="font-size: 1.3rem; line-height: 1.5;">Psicologia dell'adulto, dell'adolescente, dell'anziano</h3>
           </div>
         </div>
 
-        <div class="col-lg-3 col-md-6">
+        <div class="col-lg-4 col-md-6">
+          <div class="myColumn">
+            <h3 class="cursive-style">Psicoterapia <br>di coppia</h3>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6">
+          <div class="myColumn">
+            <h3 class="cursive-style">Crescita <br>Personale</h3>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6">
+          <div class="myColumn">
+            <h3 class="cursive-style">Disagio adolescenziale</h3>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6">
+          <div class="myColumn">
+            <h3 class="cursive-style">Formazione</h3>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6">
+          <div class="myColumn">
+            <h3 class="cursive-style">Consulenze</h3>
+          </div>
+        </div>
+
+
+      </div>
+      <!-- fine row -->
+
+
+
+      <br>
+
+      <div class="row">
+        <div class="col-lg-4 col-md-6">
           <div class="cases" id="ps-scolastica">
-            <h5 class="normal-heading">Psicologia Scolastica</h5>
-            <img class="imgSlide" src="img/psicologia_scolastica.jpg" alt="">
+            <h5 class="md-heading">Psicologia Scolastica</h5>
+            <a href="img/psicologia_scolastica.jpg" rel="lightbox[web]"><img class="myImage" src="img/psicologia_scolastica.jpg" alt="" width="100" height="200"></a>
           </div>
         </div>
 
-        <div class="col-lg-3 col-md-6">
+        <div class="col-lg-4 col-md-6">
           <div class="cases" id="perizia">
-            <h5 class="normal-heading">Perizia Psicologica</h5>
+            <h5 class="md-heading">Perizia Psicologica | Psicologia Forense</h5>
             <p>Valutazione del danno psichico (mobbing, incidente stradale, lutto)
               e consulenza tecnica di parte per separazione e affido</p>
             <p> questo</p>
@@ -135,65 +176,45 @@
           </div>
         </div>
 
-        <div class="col-lg-3 col-md-6">
+        <div class="col-lg-4 col-md-6">
           <div class="cases" id="casi-clinici">
-            <h5 class="normal-heading">Casi Clinici</h5>
+            <h5 class="md-heading">Casi Clinici</h5>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+              Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </p>
           </div>
-      </div>
-    </section>
-
-    <section class="white-section" id="dis-trattati">
-      <br>
-      <div class="text-ambiti">
-        <p>
-          <ul>
-            <li>Psicoterapia dell'Adulto, dell'adolescente e dell'anziano</li>
-            <li>Psicoterapia di coppia</li>
-            <li>Sostegno e consulenza psicologica</li>
-            <li>Crescita personale</li>
-            <li>Psicologia scolastica</li>
-            <li>Disagio adolescenziale</li>
-            <li>Formazione</li>
-            <li>Consulenze</li>
-          </ul>
-
-
-          <br>
-          Perizia Psicologica:
-          <br>
-          Valutazione del danno psichico (mobbing, incidente stradale, lutto) e consulenza tecnica di parte per separazione e affido
-          <br>
-          Supervisione di casi clinici:
-          <br>
-          Rivolto ai colleghi che desiderano sperimentare il modo di fare psicoterapia nella prospettiva psicodinamica- psicoanalitica
-
-          <br>
-          Per il riferimento teorico scientifico consultare il sito www.psychomedia.it
-
-        </p>
+        </div>
       </div>
 
-    </section>
+  </section>
+
+  <section class="white-section" id="dis-trattati">
+    <br>
+    <div class="text-ambiti">
+      <p>
+        <br>
+        Perizia Psicologica:
+        <br>
+        Valutazione del danno psichico (mobbing, incidente stradale, lutto) e consulenza tecnica di parte per separazione e affido
+        <br>
+        Supervisione di casi clinici:
+        <br>
+        Rivolto ai colleghi che desiderano sperimentare il modo di fare psicoterapia nella prospettiva psicodinamica- psicoanalitica
+
+        <br>
+        Per il riferimento teorico scientifico consultare il sito www.psychomedia.it
+
+      </p>
+    </div>
+
+  </section>
 
   <!-- Disturbi Trattati -->
   <div class="container-fluid">
     <section class="shrink-section" id="disturbi">
       <div class="text-ambiti">
         <p>
-          <h1>Di cosa mi occupo:</h1>
-
-          <ul>
-            <li>Psicoterapia dell'Adulto, dell'adolescente e dell'anziano</li>
-            <li>Psicoterapia di coppia</li>
-            <li>Sostegno e consulenza psicologica</li>
-            <li>Crescita personale</li>
-            <li>Psicologia scolastica</li>
-            <li>Disagio adolescenziale</li>
-            <li>Formazione</li>
-            <li>Consulenze</li>
-          </ul>
-
-
           <br>
           <h1>Perizia Psicologica:</h1>
           <br>
@@ -214,46 +235,46 @@
   </div>
 
 
-    <!-- footer -->
-    <footer class="white-section" id="footer">
-      <ul>
-        <li class="my-footer list-inline-item">
-          <a class="footer-link" href="tel:320-761-0257">
-            <i class="fas fa-phone"></i>
-          </a>
-        </li>
+  <!-- footer -->
+  <footer class="white-section" id="footer">
+    <ul>
+      <li class="my-footer list-inline-item">
+        <a class="footer-link" href="tel:320-761-0257">
+          <i class="fas fa-phone"></i>
+        </a>
+      </li>
 
-        <li class="my-footer list-inline-item">
-          <a class="footer-link" href="www.facebook.com">
-            <i class="fab fa-facebook-f"></i>
-          </a>
-        </li>
+      <li class="my-footer list-inline-item">
+        <a class="footer-link" href="www.facebook.com">
+          <i class="fab fa-facebook-f"></i>
+        </a>
+      </li>
 
-        <li class="my-footer list-inline-item">
-          <a class="footer-link" href="www.instagram.com">
-            <i class="fab fa-instagram"></i>
-          </a>
-        </li>
+      <li class="my-footer list-inline-item">
+        <a class="footer-link" href="www.instagram.com">
+          <i class="fab fa-instagram"></i>
+        </a>
+      </li>
 
-        <li class="my-footer list-inline-item">
-          <a class="footer-link" href="mailto:kapla8@libero.it">
-            <i class="fas fa-envelope"></i>
-          </a>
-        </li>
-      </ul>
-      <p style=" text-align: center;">
-        Ricevo su appuntamento a Lecce <br>
-        in via C. De Giorgi, 44 <br>
-        ( zona Salesiani )
-        <br>
-        <strong style=" text-align: center;" class="pr-3">320 7610257 </strong> | <strong class="pl-3"> kapla8@libero.it</strong><br>
-        <br>
-        © Copyright 2020 Laura Cappilli
-        <br>
-      </p>
+      <li class="my-footer list-inline-item">
+        <a class="footer-link" href="mailto:kapla8@libero.it">
+          <i class="fas fa-envelope"></i>
+        </a>
+      </li>
+    </ul>
+    <p style=" text-align: center;">
+      Ricevo su appuntamento a Lecce <br>
+      in via C. De Giorgi, 44 <br>
+      ( zona Salesiani )
+      <br>
+      <strong style=" text-align: center;" class="pr-3">320 7610257 </strong> | <strong class="pl-3"> kapla8@libero.it</strong><br>
+      <br>
+      © Copyright 2020 Laura Cappilli
+      <br>
+    </p>
 
 
-    </footer>
+  </footer>
 
 </body>
 
