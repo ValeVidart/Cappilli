@@ -27,8 +27,9 @@
   <link rel="stylesheet" href="css/cappilli.css">
   <link rel="stylesheet" href="css/ambiti.css">
   <link rel="stylesheet" href="css/mobile.css">
-  <link href="css/gallerymio.css" rel="stylesheet" type="text/css" />
-  <link href="css/lightboxmio.css" rel="stylesheet" type="text/css" />
+  <link href="css/gallerymio.css" rel="stylesheet">
+  <link href="css/lightboxmio.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/articoli">
 
   <!--favicon files -->
   <link href="img/favicon.png" rel="shortcut icon">
@@ -86,7 +87,7 @@
             <li class="nav-item mySubMenu"><a class="nav-link" href="benessere.html">Salute e Benessere</a></li>
             <li class="nav-item mySubMenu"><a class="nav-link" href="decalogo.html">Decalogo dello psicologo</a></li>
             <li class="nav-item mySubMenu"><a class="nav-link" href="siti_psy.html">Siti di Psicologia</a></li>
-            <li class="nav-item mySubMenu"><a class="nav-link" href="deontologia.html.">Leggi e Deontologia</a></li>
+            <li class="nav-item mySubMenu"><a class="nav-link" href="legg_deont.html.">Leggi e Deontologia</a></li>
           </ul>
         </li>
         <li class="nav-item">
@@ -155,36 +156,78 @@
 
 
       <br>
+      <div class="mini-sections">
 
-      <div class="row">
-        <div class="col-lg-4 col-md-6">
-          <div class="cases" id="ps-scolastica">
-            <h5 class="md-heading">Psicologia Scolastica</h5>
-            <a href="img/psicologia_scolastica.jpg" rel="lightbox[web]"><img class="myImage" src="img/psicologia_scolastica.jpg" alt="" width="100" height="200"></a>
+        <div class="row">
+          <div class="col-lg-6" id="ps-scolastica">
+            <div class="cases">
+              <h5 class="big-heading">Psicologia <br>Scolastica</h5>
+              <a href="img/psicologia_scolastica.jpg" rel="lightbox[web]"><img class="myImage" src="img/psicologia_scolastica.jpg" alt="" width="100" height="200"></a>
+              <br>
+              <p>tocca l'immagine per ingrandire</p>
+            </div>
           </div>
+
+          <div class="col-lg-6" id="ps-forense">
+            <div class="cases">
+              <h6 class="big-heading">Perizia Psicologica<br>Psicologia Forense</h5>
+                <br>
+                <h5 class="cursive-style">Diritto Minorile:</h5>
+                <p>
+                  <ul>
+                    <li>Quadro di riferimento normativo</li>
+                    <li>Aspetti psicologici</li>
+                  </ul>
+                </p>
+                <h5 class="cursive-style">Consulenza Tecnica Psicologica nella Giustizia Civile, Ordinaria, Minorile:</h5>
+                <p>
+                  <ul>
+                    <li>Separazioni</li>
+                    <li>Divorzio</li>
+                    <li>Affidamento</li>
+                    <li>Idoneità dei genitori</li>
+                    <li>Adozione Nazionale e Internazionale</li>
+                    <li>Danno alla persona (Psichico, da <strong>Mobbing</strong>)</li>
+                  </ul>
+                </p>
+
+                <h5 class="cursive-style">Competenze Peritali e di Consulenza Psicologica in campo Penale:</h5>
+                <p>
+                  <ul>
+                    <li>Imputabilità e Responsabilità</li>
+                    <li>Pericolosità sociale</li>
+                    <li>Attendibilità della testimonianza</li>
+                  </ul>
+                </p>
+
+                <h5 class="cursive-style">Lavoro Peritale e di Consulenza Tecnica nel Processo Penale Minorile:</h5>
+                <p>
+                  Competenze relative all'attività di <strong>Mediazione</strong>:
+                  <ul>
+                    <li>Civile</li>
+                    <li>Penale</li>
+                    <li>Extra- giudiziaria</li>
+                  </ul>
+                  <br>
+                </p>
+            </div>
+          </div>
+
+          <div class="col-lg-12" id="casi-clinici">
+            <div class="cases">
+              <h5 class="big-heading">Supervisione di casi clinici:</h5>
+              <p class="text-general">
+                <br>
+                Rivolto ai colleghi che desiderano sperimentare il modo di fare psicoterapia nella prospettiva <strong>psicodinamica- psicoanalitica</strong>
+                <br>
+                <em>Per il riferimento teorico scientifico consultare il sito <a href="www.psychomedia.it">www.psychomedia.it</a></em>
+              </p>
+            </div>
+          </div>
+
+
         </div>
 
-        <div class="col-lg-4 col-md-6">
-          <div class="cases" id="perizia">
-            <h5 class="md-heading">Perizia Psicologica | Psicologia Forense</h5>
-            <p>Valutazione del danno psichico (mobbing, incidente stradale, lutto)
-              e consulenza tecnica di parte per separazione e affido</p>
-            <p> questo</p>
-            <p>quello</p>
-            <p>quell'altro</p>
-            <p>quest'altro</p>
-          </div>
-        </div>
-
-        <div class="col-lg-4 col-md-6">
-          <div class="cases" id="casi-clinici">
-            <h5 class="md-heading">Casi Clinici</h5>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-              Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-            </p>
-          </div>
-        </div>
       </div>
 
   </section>
@@ -196,15 +239,33 @@
         <br>
         Perizia Psicologica:
         <br>
-        Valutazione del danno psichico (mobbing, incidente stradale, lutto) e consulenza tecnica di parte per separazione e affido
-        <br>
-        Supervisione di casi clinici:
-        <br>
-        Rivolto ai colleghi che desiderano sperimentare il modo di fare psicoterapia nella prospettiva psicodinamica- psicoanalitica
+        Disturbi trattati:
 
-        <br>
-        Per il riferimento teorico scientifico consultare il sito www.psychomedia.it
 
+        Disturbi del comportamento alimentare
+        (anoressia, bulimia, obesità, fame nervosa);<br>
+
+        Disturbi d'ansia
+        (ansia, panico, fobie, ossessioni, compulsioni, stress post-traumatico...);<br>
+
+        Disturbi dell'affettività e dell'umore
+        (stati depressivi, eccitazione eccessiva...);<br>
+
+        Disturbi di personalità
+        (dipendente, evitante, ossessivo-compulsivo, antisociale, borderline, istrionico, narcisistico, paranoie, schizoide...);<br>
+
+        Disturbi Sessuali
+        (vaginismo, dispareunia, parafilie, disturbi del desiderio e dell'eccitazione sessuale, i DIG - Disturbo dell'Identità di Genere);<br>
+
+        Disturbi Psicosomatici
+        (gastrite, colite, ipertensione, tachicardia, psioriasi);<br>
+
+        Disagio o difficoltà di relazione
+        (sociale, di coppia, familiare...);<br>
+
+        Difficoltà legate alle fasi della crescita
+        (adolescenza, gravidanza, menopausa, pensionamento, lutto, perdite). <br>
+        <br>
       </p>
     </div>
 

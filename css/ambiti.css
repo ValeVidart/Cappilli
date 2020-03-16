@@ -11,9 +11,6 @@
   padding: 6%;
 }
 
-ul{
-  list-style-type: none;
-}
 
 .myColumn{
   width: 18rem;
@@ -40,11 +37,33 @@ ul{
 /* first section */
 .cases{
   background-color: #EFEFEF;
-  color: #3ca3ab;
-  padding: 3%;
+  padding: 7%;
   border-radius:2vw;
-  width: 90%;
-  height: 90%;
+  width: 97%;
+  height: 97%;
   margin: auto;
-  text-align: center;
+  font-size: 1.1rem;
+}
+
+.cases li{
+  padding-bottom: 2%;
+}
+
+#perizia,#ps-scolastica,#casi-clinici .cursive-style{
+  text-align: left;
+  line-height: 1.4;
+  font-size: 1.1rem;
+  font-weight: 700;
+}
+
+#perizia,#ps-scolastica,#casi-clinici .md-heading{
+  text-transform: uppercase;
+}
+
+#ps-scolastica .myImage{
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 2vw;
 }

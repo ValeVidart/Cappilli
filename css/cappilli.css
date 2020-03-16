@@ -83,6 +83,7 @@ hr {
 }
 
 
+
 .white-section .new-md-heading{
   color: #0c7b93;
 }
@@ -96,6 +97,7 @@ hr {
   line-height: 1.2;
 }
 
+
 em {
   font-family: 'Merriweather';
   font-weight: 300;
@@ -106,6 +108,11 @@ em {
   color: #293133;
   font-size: 1.1rem;
 }
+
+#psyc_list{
+  text-align: left;
+}
+
 
 .text-general strong{
   letter-spacing: 0.06;
