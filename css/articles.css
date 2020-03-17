@@ -48,4 +48,17 @@
   margin:0;
 }
 
+.sub-title{
+  font-weight: 700;
+  font-size: 1.6rem;
+  letter-spacing: -0.022em;
+}
 /* sections and containers */
+
+
+#articles{
+  max-width:680px;
+  margin: auto;
+}
+
+/* buttons */

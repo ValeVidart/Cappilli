@@ -265,10 +265,18 @@ nav-label:focus {
 
 .btn:hover {
   color: #f19b06;
-  text-decoration: none;
   background-color: #fff;
   border: 2px solid #f19b06;
+}
 
+a.myBtn{
+  color: #0c7b93;
+  text-decoration: none;
+  transition-duration: 0.05s;
+
+}
+a.myBtn:hover{
+  color: #f19b06;
 }
 
 /* TERAPIA */
