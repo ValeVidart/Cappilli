@@ -17,6 +17,30 @@ hr {
   width: 9%;
   margin: 50px auto;
 }
+/* buttons */
+
+#tasto-top{
+    width: 3.5rem;
+    height: 3.5rem;
+    z-index: 1;
+    position: fixed;
+    background-color: grey;
+    border-radius: 100%;
+    opacity: 70%;
+
+}
+
+#tasto-top i{
+  font-size: 2.5rem;
+}
+
+.myTasto{
+  display: block;
+  right:20px;
+  bottom: 20px;
+  color: #f19b06;
+  margin: auto;
+}
 /* sections and containers */
 .container-fluid {
   padding: 4% 9%;
@@ -122,6 +146,7 @@ em {
 .colored-section strong{
   color: #0c7b93;
 }
+
 
 /* navbar */
 .myMenu {

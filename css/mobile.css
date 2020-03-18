@@ -43,13 +43,22 @@
     line-height: 1.4;
   }
 
+
+
   #leggi .big-heading {
     font-size: 1.8rem;
   }
+  #benessere .big-heading {
+    font-size: 1.8rem;
+  }
+
+
 
   .text-general {
     line-height: 1.8;
   }
+
+
 
   #p_analisi .big-heading {
     font-size: 2rem;
@@ -138,15 +147,11 @@
   }
 
   #articles .article-heading {
-    font-size: 3rem;
+    font-size: 2.8rem;
   }
 
-  #decalogo .cursive-style {
-    font-size: 2rem;
-  }
-  .sub-title{
-    font-size: 2rem;
-  }
+
+
 
   /* images */
   #articles .myImage {
@@ -167,9 +172,14 @@
     padding: 3% 15%;
   }
 
-  /* Headings */
+  /* Headings and text*/
   #art-principali .cursive-style {
     font-size: 1.8rem;
+  }
+
+
+  #decalogo li{
+    font-size: 1.2rem;
   }
 
   /* IMAGES */
@@ -181,8 +191,9 @@
 
   .myImage {
     max-width: 100%;
-    max-height: 50%;
+    max-height: 100%;
     object-fit: cover;
+    border-radius: 2vw;
   }
 
   .card-img, .card-img-top {
@@ -210,11 +221,12 @@
 @media (min-width: 1450px) {
 
   /* ARTICLES SECTION */
-  /* .container-fluid {
+
+  .colored-section .container-fluid {
     padding-left: 20%;
     padding-right: 20%;
-  } */
-  .colored-section .container-fluid {
+  }
+  .white-section .container-fluid {
     padding-left: 20%;
     padding-right: 20%;
   }
