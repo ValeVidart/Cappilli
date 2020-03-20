@@ -18,6 +18,34 @@
   font-size: 1rem;
 }
 
+
+#event .light-heading{
+  font-size:1.5rem;
+  line-height:1.8;
+  color: #f19b06;
+}
+
+#event .card-title{
+  font-size:1.2rem;
+}
+#event,.art-dida{
+  font-size:1rem;
+}
+#event .card{
+  text-align: center;
+}
+.header-eventi{
+  font-size:2rem;
+  padding-bottom:0;
+  line-height:0.8rem;
+  padding:0;
+  line-height: 1;
+  font-family: 'DM Serif Text', serif;
+  color: #0c7b93;
+  text-align: center;
+}
+
+
 .art-sub-heading{
   font-size: .9rem;
   font-family: 'Merriweather Sans', sans-serif;
